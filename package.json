@@ -1,0 +1,40 @@
+{
+  "name": "siteshare",
+  "version": "0.1.0",
+  "description": "Let your client edit the site you built with AI, by talking to it. Connects a GitHub repository to Siteshare.",
+  "type": "module",
+  "bin": {
+    "siteshare": "bin/siteshare.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "cms",
+    "headless-cms",
+    "client-editing",
+    "ai",
+    "claude-code",
+    "github",
+    "astro",
+    "nextjs",
+    "static-site"
+  ],
+  "homepage": "https://siteshare.dev/docs/ai-assistants",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ideelab/siteshare-agent.git"
+  },
+  "bugs": "https://github.com/Ideelab/siteshare-agent/issues",
+  "author": "Ideelab (https://siteshare.dev/about)",
+  "license": "MIT"
+}
