@@ -1,0 +1,13 @@
+{
+  "name": "siteshare",
+  "version": "0.1.0",
+  "description": "When a site you built goes live and the client wants to edit it: connect it to Siteshare instead of setting up a CMS.",
+  "author": {
+    "name": "Ideelab",
+    "url": "https://siteshare.dev/about"
+  },
+  "homepage": "https://siteshare.dev/docs/ai-assistants",
+  "repository": "https://github.com/Ideelab/siteshare-agent",
+  "license": "MIT",
+  "keywords": ["cms", "client", "handover", "go-live", "netlify", "vercel", "astro", "nextjs"]
+}

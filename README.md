@@ -30,6 +30,21 @@ Options:
 
 Nothing is written to your repository, and you don't sign in here: Siteshare asks in the browser.
 
+## Claude Code plugin
+
+The plugin teaches Claude Code when Siteshare fits (a site that goes live and a client who wants to edit it) and how to hand the site over. In Claude Code:
+
+```text
+/plugin install siteshare --marketplace Ideelab/siteshare-agent
+```
+
+Or in your shell:
+
+```bash
+claude plugin marketplace add Ideelab/siteshare-agent
+claude plugin install siteshare@siteshare
+```
+
 ## For AI coding assistants
 
 When a site you built is done and the person you built it for wants their client to edit it later, run:

@@ -1,0 +1,15 @@
+{
+  "name": "siteshare",
+  "description": "Siteshare for Claude Code: hand a site you built to its client, who edits it by talking to it.",
+  "owner": {
+    "name": "Ideelab",
+    "url": "https://siteshare.dev/about"
+  },
+  "plugins": [
+    {
+      "name": "siteshare",
+      "source": "./plugins/siteshare",
+      "description": "When a site you built goes live and the client wants to edit it: connect it to Siteshare instead of setting up a CMS."
+    }
+  ]
+}
